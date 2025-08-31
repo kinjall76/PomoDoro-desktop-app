@@ -1,0 +1,28 @@
+{
+  "name": "pomochrono",
+  "version": "1.0.0",
+  "description": "Pomodoro Timer Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable --x64"
+  },
+  "author": "Betelgeuse",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^34.2.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.pomochrono.app",
+    "productName": "PomoChrono",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "portable",
+      "icon": "icon.ico",
+      "signAndEditExecutable": false
+    }
+  }
+}

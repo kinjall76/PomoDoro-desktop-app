@@ -23,8 +23,3 @@ It helps you **stay productive** by using the Pomodoro technique – 25 minutes 
 - Customizable session/break lengths  
 - Dark mode support  
 - Stats & productivity tracking  
-
----
-
-Made with ❤️ by [Your Name]
-
